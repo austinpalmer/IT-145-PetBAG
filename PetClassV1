@@ -1,0 +1,75 @@
+public class Pet {
+	private String petType;															//Initializing variables in Pet()
+	private String petName;
+	private int petAge;
+	private int daysStay;
+	private double amountDue;
+	private int dogSpaces;
+	private int catSpaces;
+
+	public Pet(String petType, String petName, int petAge, int daysStay, double amountDue) { 	//Constructor: Creates a Pet class based on the inputs.
+		this.petType = petType;															
+		this.petName = petName;
+		this.petAge = petAge;
+		this.daysStay = daysStay;
+		this.amountDue = amountDue;
+		dogSpaces = 32;
+		catSpaces = 12;
+	}
+	
+	public String getPetType() {													    //petType "getter"
+		return petType;
+	}
+	
+	public void setPetType(String petType) {									//petType "setter"
+		this.petType = petType;
+	}
+	
+	public String getPetName() {													    //petName "getter"
+		return petName;
+	}
+	
+	public void setPetName(String petName) {									//petName "setter"
+		this.petName = petName;
+	}
+															    
+	public int getPetAge() {                                  //petAge "getter"
+		return petAge;
+	}
+	
+	public void setPetAge(int petAge) {												//petAge "setter"
+		this.petAge = petAge;
+	}
+	
+	public int getDogSpaces() {														    //dogSpaces "getter"
+		return dogSpaces;
+	}
+	
+	public void setDogSpaces(int dogSpaces) {									//dogSpaces "setter"
+		this.dogSpaces = dogSpaces;
+	}
+	
+	public int getCatSpaces() {														    //catSpaces "getter"
+		return catSpaces;
+	}
+	
+	public void setCatSpaces(int catSpaces) {									//catSpaces "setter"
+		this.catSpaces = catSpaces;
+	}
+	
+	public int getDaysStay() {														    //daysStay "getter"
+		return daysStay;
+	}
+	
+	public void setDaysStay(int daysStay) {										//daysStay "setter"
+		this.daysStay = daysStay;
+	}
+	
+	public double getAmountDue() {													  //amountDue "getter"
+		return amountDue;
+	}
+	
+	public void setAmountDue(double amountDue) {							//amountDue "setter"
+		this.amountDue = amountDue;
+	}
+}
